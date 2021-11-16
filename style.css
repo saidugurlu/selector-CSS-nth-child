@@ -1,0 +1,21 @@
+.square {
+  display: inline-block;
+}
+.square:nth-child(even) {
+  background-color: cornsilk;
+  color: red;
+}
+.square:nth-child(odd) {
+  background-color: red;
+  color: cornsilk;
+}
+
+div:last-child {
+  background-image: url(assets/christmas-tree.png);
+  background-size: cover;
+}
+body {
+  background: url(assets/background.png);
+  background-repeat: repeat-x;
+  background-size: 100px;
+}
